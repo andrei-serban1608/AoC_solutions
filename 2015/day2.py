@@ -1,7 +1,7 @@
 if __name__ == "__main__":
     total_paper = 0
     total_ribbon = 0
-    with open("day2_input.txt", "r") as f:
+    with open("2015/day2_input.txt", "r") as f:
         line = f.readline()
         while line != "":
             l = int(line[0:line.find("x")])

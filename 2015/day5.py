@@ -46,7 +46,7 @@ def has_skipping_letter(s):
 
 if __name__ == "__main__":
     no_of_nice_strings = 0
-    with open("day5_input.txt", "r") as f:
+    with open("2015/day5_input.txt", "r") as f:
         string_to_check = f.readline()
         while string_to_check != "":
             # Replace string checks for part 1

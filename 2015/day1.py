@@ -1,7 +1,7 @@
 if __name__ == "__main__":
     cnt = 0
     fst_pos = 0
-    with open("day1_input.txt", "r") as f:
+    with open("2015/day1_input.txt", "r") as f:
         line = f.readline()
         line = list(line)
         for i in range(len(line)):

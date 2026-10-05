@@ -2,7 +2,7 @@ if __name__ == "__main__":
     position_santa = (0, 0)
     position_robo_santa = (0, 0)
     total_coordinates = [position_santa]
-    with open("day3_input.txt", "r") as f:
+    with open("2015/day3_input.txt", "r") as f:
         coordinates = f.readline()
         while coordinates != "":
             coordinates = list(coordinates.strip())

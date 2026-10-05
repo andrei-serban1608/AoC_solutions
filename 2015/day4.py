@@ -8,7 +8,7 @@ def append_key(k, num):
 
 if __name__ == "__main__":
     not_found = True
-    with open("day4_input.txt", "r") as f:
+    with open("2015/day4_input.txt", "r") as f:
         key = f.read().strip()
     num = 1
     while not_found:

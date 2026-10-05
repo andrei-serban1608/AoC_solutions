@@ -87,7 +87,7 @@ def parse_operation(op):
 
 if __name__ == "__main__":
     while 'a' not in signal_map.keys():
-        with open("day7_input.txt", "r") as f:
+        with open("2015/day7_input.txt", "r") as f:
             op = f.readline()
             while op != "":
                 parse_operation(op)

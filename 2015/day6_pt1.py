@@ -33,7 +33,7 @@ def toggle(start, end):
             lights[i][j] = not lights[i][j]
 
 if __name__ == "__main__":
-    with open("day6_input.txt", "r") as f:
+    with open("2015/day6_input.txt", "r") as f:
         instruction = f.readline()
         while instruction != "":
             action, start, end = parse_instruction(instruction)
